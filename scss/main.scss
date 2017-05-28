@@ -1,6 +1,76 @@
 @import "bourbon";
 @import "vars.scss";
 
+#sec_02{
+  padding: 25px 0 100px;
+  .header_main{margin-bottom: 30px;}
+  .header+.text{margin-top: 20px;}
+  [class*="row_img"]{
+    margin-top: 35px;
+    width: 100%;
+    max-width: 405px;
+  }
+  [class*="logo-"]{margin: 23px 8px;}
+  .row_img-5{margin-top: 60px;}
+
+  .row_content{
+    .col-7{padding-top: 60px;}
+  }
+}
+
+#sec_03{
+  .text_big{
+    margin: 7px 0 20px;
+  }
+  img{
+    width: 100%;
+    max-width: 492px;
+  }
+}
+
+.list_item{
+  li{
+    position: relative;
+    padding-left: 20px;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 8px;
+      height: 8px;
+      left: 0px;
+      top: 10px;
+      background: url(../img/list.png) center no-repeat;
+    }
+  }
+  li+li{margin-top: 8px;}
+}
+
+#sec_04{
+  padding: 90px 0 100px;
+  background-image: url(../img/sec_03-img.png);
+  background-position: top 150px center;
+  background-repeat: no-repeat;;
+  .header{
+    margin: 145px 0 30px;
+  }
+  .text_big{
+    line-height: 36px;
+  }
+
+  .block_form{
+    max-width: 458px;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 65px 70px 70px;
+
+    .title{margin-bottom: 27px}
+    .field+.field{margin-top: 20px;}
+    .btn{margin-top: 50px;}
+  }
+
+  .logo_btm{margin-top: 160px;}
+}
 
 footer{
   padding: 15px 0 15px;
