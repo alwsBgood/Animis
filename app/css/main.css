@@ -1,80 +1,31 @@
 @import url(../libs/niftymodal/component.css);
-@import url(../libs/slick/slick.min.css);
-form {
-  width: 400px;
-  margin: 40px auto; }
-  form .field {
-    width: 100%;
-    margin: 5px 0; }
-
 footer {
   padding: 15px 0 15px;
   background-color: #202020; }
   footer .politics {
-    margin-top: 17px; }
+    margin-top: 13px; }
     footer .politics a {
       color: #65666a;
-      font-size: 14px; }
+      font-size: 15px; }
     footer .politics a:hover {
-      color: #1988cc; }
+      color: #fa5672; }
     footer .politics a + a {
       margin-left: 10px; }
   footer .logo_rezart {
-    margin-top: 5px;
-    margin-left: 25px;
-    width: 80px;
+    margin-top: 3px;
+    margin-left: 0px;
+    width: 55px;
     float: right; }
-
-body {
-  background: url("svg#sec_09-counter"); }
-
-/* ================================*/
-/* CURSOR STYLES*/
-.touch_mode_grab {
-  cursor: grab !important;
-  cursor: -webkit-grab !important; }
-
-.touch_mode_grabbing {
-  cursor: grabbing !important;
-  cursor: -webkit-grabbing !important; }
-
-/* ==========================*/
-.tabs__content {
-  display: none !important; }
-
-.tabs__content.active {
-  display: block !important; }
+    footer .logo_rezart svg {
+      fill: #fff;
+      -webkit-transition: fill .3s;
+      transition: fill .3s; }
+    footer .logo_rezart:hover svg {
+      fill: #fa5672; }
 
 .hidden {
   height: 0;
   width: 0; }
-
-div[id*="modal_callback"] {
-  max-width: 500px; }
-  div[id*="modal_callback"] h2 {
-    font-size: 29px;
-    line-height: 36px;
-    margin: 30px 30px 0px; }
-  div[id*="modal_callback"] .h2_desc {
-    margin-bottom: 25px; }
-  div[id*="modal_callback"] .md-content {
-    padding: 20px;
-    background: #fff;
-    background-size: cover;
-    text-align: center; }
-  div[id*="modal_callback"] .form-wrap {
-    display: block; }
-  div[id*="modal_callback"] .field {
-    max-width: 360px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto; }
-    div[id*="modal_callback"] .field input {
-      width: 100%; }
-  div[id*="modal_callback"] .field + .field {
-    margin-top: 5px; }
-  div[id*="modal_callback"] .btn {
-    margin: 10px auto 0; }
 
 .field {
   position: relative;
@@ -223,96 +174,16 @@ div[id*="modal_politics"] {
   .btn_close_modal a:hover {
     color: #000; }
     .btn_close_modal a:hover svg .a {
-      fill: #1988cc; }
-
-.t_small {
-  font-size: 14px; }
-
-.slick-dots {
-  position: absolute;
-  bottom: -40px;
-  display: block;
-  width: 100%;
-  text-align: center; }
-
-.slick-dots li {
-  display: inline-block;
-  height: 12px;
-  width: 12px;
-  margin: 0 5px;
-  padding: 0;
-  cursor: pointer; }
-
-.slick-dots li.slick-active button {
-  background: none; }
-
-.slick-dots li button {
-  background-color: #000;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  border: 2px solid #000;
-  color: transparent;
-  cursor: pointer;
-  display: block;
-  font-size: 0;
-  height: 12px;
-  line-height: 0;
-  outline: medium none;
-  padding: 2px;
-  width: 12px; }
-
-.slick-next, .slick-prev {
-  bottom: initial;
-  top: 200px;
-  background: none;
-  width: 20px;
-  height: 20px; }
-
-.slick-next {
-  border-top: 4px solid #000;
-  border-right: 4px solid #000;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  right: 10px;
-  margin: 0; }
-
-.slick-prev {
-  border-top: 4px solid #000;
-  border-left: 4px solid #000;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  left: 10px;
-  margin: 0; }
-
-.slick-next:hover {
-  border-top: 4px solid #1988cc;
-  border-right: 4px solid #1988cc; }
-
-.slick-prev:hover {
-  border-top: 4px solid #1988cc;
-  border-left: 4px solid #1988cc; }
-
-.slick-next:before, .slick-prev:before {
-  display: none; }
-
-.slick-slide {
-  outline: none; }
+      fill: #fa5672; }
 
 .field {
   position: relative;
   display: block; }
   .field input {
-    padding: 25px 0;
+    padding: 10px 0;
     width: 100%;
     color: #000;
-    font: 18px/20px "Roboto", sans-serif; }
-  .field textarea {
-    padding: 25px 0;
-    width: 100%;
-    color: #000;
-    font: 18px/20px "Roboto", sans-serif; }
+    font: 18px/20px "HelveticaNeueCyr", sans-serif; }
 
 .field:before {
   content: "";
@@ -331,7 +202,7 @@ div[id*="modal_politics"] {
   bottom: 0;
   width: 0;
   height: 3px;
-  background: #1988cc;
+  background: #fa5672;
   -webkit-transition: all 0.4s;
   transition: all 0.4s; }
 
@@ -344,19 +215,19 @@ textarea:active + .bar, textarea:focus + .bar {
 
 input::-webkit-input-placeholder {
   color: #9F9F9F;
-  font: 18px/24px "Roboto", sans-serif; }
+  font: 18px/24px "HelveticaNeueCyr", sans-serif; }
 
 input:-moz-placeholder {
   color: #9F9F9F;
-  font: 18px/24px "Roboto", sans-serif; }
+  font: 18px/24px "HelveticaNeueCyr", sans-serif; }
 
 input::-moz-placeholder {
   color: #9F9F9F;
-  font: 18px/24px "Roboto", sans-serif; }
+  font: 18px/24px "HelveticaNeueCyr", sans-serif; }
 
 input:-ms-input-placeholder {
   color: #9F9F9F;
-  font: 18px/24px "Roboto", sans-serif; }
+  font: 18px/24px "HelveticaNeueCyr", sans-serif; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   footer .politics a {
@@ -378,7 +249,8 @@ input:-ms-input-placeholder {
     footer .logo_rezart {
       display: inline-block;
       float: none;
-      margin-top: 20px; }
+      margin-top: 10px;
+      margin-left: 0; }
   div[id*="modal_callback"] {
     min-width: 510px; }
     div[id*="modal_callback"] .md-content {
@@ -403,3 +275,8 @@ input:-ms-input-placeholder {
     padding-top: 70px; }
   div[id*='modal_politics'] .btn_close_modal {
     top: 20px; } }
+
+@media (max-width: 500px) {
+  div[id*="modal_callback"] {
+    max-width: 500px;
+    min-width: 100%; } }

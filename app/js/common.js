@@ -122,12 +122,6 @@ $(function() {
 });
 
 
-//  INPUT TEL MASK
-
-jQuery(function($){
- $("input[type='tel']").mask("+38 (999) 999-9999");
-});
-
 
 // Scroll BAR
 
@@ -139,25 +133,6 @@ $(window).scroll(function() {
 
 });
 
-
-//YOUTUBE
-
-$(function() {
-  $(".youtube").each(function() {
-    $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
-
-    $(this).append($('<div/>', {'class': 'play'}));
-
-    $(document).delegate('#'+this.id, 'click', function() {
-      var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1";
-      if ($(this).data('params')) iframe_url+='&'+$(this).data('params');
-
-      var iframe = $('<iframe/>', {'frameborder': '0', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
-
-      $(this).replaceWith(iframe);
-    });
-  });
-});
 
 //  UP BUTTON
 
@@ -193,27 +168,6 @@ $('.md-close').click(function() {
 
 $('.md-overlay').click(function() {
   $("body").removeClass('unscroll');
-});
-
-
-//Sliders
-
-$('.slider').slick({
-  slidesToShow: 1,
-  dots: true,
-  arrows: false,
-  infinite: true,
-  slidesToScroll: 1,
-  fade: true,
-  adaptiveHeight: true,
-  responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-      }
-    }
-  ]
 });
 
 // Perfect Pxel

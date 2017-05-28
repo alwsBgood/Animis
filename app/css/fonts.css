@@ -1,5 +1,23 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "HelveticaNeueCyr";
   font-style: normal;
-  font-weight: normal;
-  src: url("fonts/Roboto.woff2") format("woff2"), url("fonts/Roboto.woff") format("woff"); }
+  font-weight: 400;
+  src: url("fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"), url("fonts/HelveticaNeueCyr-Roman.woff") format("woff"); }
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"), url("fonts/HelveticaNeueCyr-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/HelveticaNeueCyr-Black.woff2") format("woff2"), url("fonts/HelveticaNeueCyr-Black.woff") format("woff"); }
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/HelveticaNeueCyr-Bolditalic.woff2") format("woff2"), url("fonts/HelveticaNeueCyr-Bolditalic.woff") format("woff"); }
