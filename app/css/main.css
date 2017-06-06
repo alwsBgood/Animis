@@ -346,6 +346,8 @@ input:-ms-input-placeholder {
   #sec_04 {
     padding-top: 0;
     text-align: center; }
+    #sec_04 .header {
+      margin-top: 70px; }
     #sec_04 .logo_btm {
       margin-top: 70px; }
     #sec_04 .block_form {

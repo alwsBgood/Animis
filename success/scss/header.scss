@@ -83,40 +83,39 @@ body.unscroll{
 }
 
 .btn{
-  width: 250px;
-    height: 50px;
-    border-radius: 24px;
-    background-color: #fded35;
+  width: 100%;
+	max-width:320px;
+	height: 52px;
+  padding-top: 5px;
+	background-color: $main_color;
 
-    color: #352b33;
-    font-size: 16px;
+	color: #fff;
+	font: 18px $main_font;
+	text-transform: uppercase;
     font-weight: 700;
 }
 
 .btn:hover{
-    background-color: #f5c0d0;
-    color: #fff;
-}
-
-.btn:active{
-    background-color: #dfafbd;
+	background-color: #dd415c;
 }
 
 #sec_01{
   background-repeat: no-repeat;
-  background-position: top 0px center;
+  background-position: center;
   background-image: url(../img/bg.png);
   position: relative;
-  padding: 200px 0 185px;
+  padding: 40px 0 185px;
 
   min-height: 100vh;
   text-align: center;
 
-  .logo{margin-bottom: 90px;}
+  .logo{margin-bottom: 190px;}
   .header_main{
     font-size: 72px;
     margin-bottom: 40px;
+    font-weight: 900;
   }
+  p{font-weight: 700;}
   .btn{
     margin: 40px auto 70px;
   }
@@ -171,8 +170,8 @@ footer{
 
 @media (max-width: 767px) {
   #sec_01{
-    padding-top: 100px;
-    background-position: top -150px center;
+    padding-bottom: 180px;
+    .btn{margin-bottom: 40px;}
   }
 
   footer{
@@ -205,9 +204,8 @@ footer{
 @media (max-width: 600px) {
   [class*='col-']{width: 100%;}
   #sec_01{
-    padding-top: 20px;
-    background-position: top -150px center;
     .logo{margin-bottom: 70px;}
+        background-size: contain;
     .header_main{
       font-size: 46px;
     }

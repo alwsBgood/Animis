@@ -150,7 +150,11 @@ div[id*="modal_politics"] {
   .btn_close_modal a:hover {
     color: #000; }
     .btn_close_modal a:hover svg .a {
-      fill: #dfafbd; }
+      fill: #fa5672; }
 
 .t_small {
   font-size: 14px; }
+
+@media screen and (max-height: 760px) {
+  .md_large .md_content {
+    max-height: 320px; } }

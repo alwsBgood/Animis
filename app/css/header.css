@@ -107,6 +107,7 @@ body.unscroll {
   max-width: 320px;
   height: 52px;
   background-color: #fa5672;
+  padding-top: 6px;
   color: #fff;
   font: 18px "HelveticaNeueCyr", sans-serif;
   text-transform: uppercase;
